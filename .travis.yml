@@ -35,9 +35,5 @@ script:
   - "make verify-generated-files"
   - "make test"
   - "python manage.py makemessages -l eo"
-branches:
-    only:
-      - master
-      - ora-staff-grading
 after_success:
   coveralls
