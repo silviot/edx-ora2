@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -x
 cd `dirname $BASH_SOURCE` && cd ..
 
 echo "Installing Python requirements..."
